@@ -1,2 +1,2 @@
 # Julia
-my works on julia are on this repo
+these are functions i built for mathematucal or numerical calculations
