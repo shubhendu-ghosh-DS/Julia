@@ -63,4 +63,14 @@ end
 
 #creating a vector of functions
 function_list = [function_a, function_b, function_c, function_d, function_e, function_f]
+#this is list of actual answers
+answers = [1.4471, 1.4036, 2.278, 0.51773, 2.0289, 1.5572]
 
+
+#now calculating the errors
+n =1
+while n <= length(answers)
+    error = predicted_ans[n] - answers[n]
+    println("error = $error")
+    n = n+1
+end
