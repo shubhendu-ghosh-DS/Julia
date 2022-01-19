@@ -9,12 +9,14 @@
    
   To generate the sequence {xn} of iterates , we put 
   x0 = a0 or b0 and x1 = (a0 + b0)/2 
-  and find f(x1). If f(a0) and f(x1) are of opposite signs, 
+    and find f(x1). If f(a0) and f(x1) are of opposite signs, 
     then set a1 = a0, b1 = x1 so that [a1, b1] = [a0, x1]. 
     On the other hand , if f(x1) and f(b0) are of opposite signs then put a1 = x1, b1 = b0, 
-    i.e. [a1, b1] = [x1, b0] .
+  i.e. [a1, b1] = [x1, b0] .
    
   Thus we see that [a1, b1] contains the root "alpha" in either case.
     Next set 
-    x2 = (a1 + b1)/2 
-    and repeat the above process till we obtain Xn+1 = (an + bn)/2 with desired accuracy with Xn -> "alpha" as n -> infinity
+  x2 = (a1 + b1)/2 
+    and repeat the above process till we obtain 
+  Xn+1 = (an + bn)/2 
+      with desired accuracy with Xn -> "alpha" as n -> infinity
