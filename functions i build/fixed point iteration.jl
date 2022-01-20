@@ -22,3 +22,12 @@ end
 #applying fixed point iteration in [3,4]
 fixed_point(f2, 3, 4, 30)
 
+
+#another function 
+function f3(x)
+    val_mod = sin(x)/10 + 1
+    return val_mod
+end
+
+
+fixed_point(f3, 1, 2, 30)
