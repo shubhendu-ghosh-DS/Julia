@@ -20,3 +20,14 @@
     and repeat the above process till we obtain 
   Xn+1 = (an + bn)/2 
       with desired accuracy with Xn -> "alpha" as n -> infinity
+
+
+## 2. __Fixed point iteration__ (_successive approximation_)
+  To find the root of the equation f(x) = 0 we first rewrite the function in the form x = g(x).  
+  and then if ~~alpha~~ be the root of the equation f(x) = 0 , we must have ~~alpha~~  = g(~~alpha~~).
+  let x = x0 be the initial approximation of the eq. then 
+  x1 = g(x0) then x1 is our second approximation , now
+  x2 = g(x1) and so on ... 
+  for more information [click here](https://atozmath.com/example/CONM/Bisection.aspx?he=e&q=it) or [here](https://math.iitm.ac.in/public_html/sryedida/caimna/transcendental/iteration%20methods/fixed-point/iteration.html)
+  
+  
