@@ -12,7 +12,13 @@ end
 
 #this is an example function 
 function f2(x)
-    val = cos(x) - 2*x + 3
-    val_mod = (cos(x) + 3)/2
+    val = 2*x - log(x)/log(10) - 7
+    val_mod = (7 + log(x)/log(10))/2
     return val_mod
 end
+
+
+
+#applying fixed point iteration in [3,4]
+fixed_point(f2, 3, 4, 30)
+
