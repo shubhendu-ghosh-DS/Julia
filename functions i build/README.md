@@ -37,5 +37,5 @@
   Xn+1 = Xn - f(Xn)/f'(Xn)
   where f'(X) is the derivative of f 
   
-  for more information   [click here](https://brilliant.org/wiki/newton-raphson-method/#:~:text=The%20Newton%2DRaphson%20method%20(also,straight%20line%20tangent%20to%20it.)
+  for more information   [click here](https://brilliant.org/wiki/newton-raphson-method/#:~:text=The%20Newton%2DRaphson%20method%20(also,straight%20line%20tangent%20to%20it. )
   
