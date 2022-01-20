@@ -2,7 +2,7 @@
 ## some functions i built for mathematical (numerical) calculations 
 
 ### going into the functions one by one 
-## 1. Bisection method (half-interval method or Bolzano method )
+## 1. Bisection method (_half-interval method_ or _Bolzano method_ )
   it is an iterative method for calculate root of an algebric or transcendental equations
     In this method we first find out sufficiently small interval [a0, b0] containing the root by graphical method por tabulation maethod. Then f(a0)f(b0) < 0
     f'(x) has same sign in [a0, b0] and so f(x) is strickly monotonic in [a0, b0]. 
@@ -28,6 +28,7 @@
   let x = x0 be the initial approximation of the eq. then 
   x1 = g(x0) then x1 is our second approximation , now
   x2 = g(x1) and so on ... 
+  
   for more information [click here](https://atozmath.com/example/CONM/Bisection.aspx?he=e&q=it) or [here](https://math.iitm.ac.in/public_html/sryedida/caimna/transcendental/iteration%20methods/fixed-point/iteration.html)
   
   
