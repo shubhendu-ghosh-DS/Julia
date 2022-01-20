@@ -31,4 +31,11 @@
   
   for more information [click here](https://atozmath.com/example/CONM/Bisection.aspx?he=e&q=it) or [here](https://math.iitm.ac.in/public_html/sryedida/caimna/transcendental/iteration%20methods/fixed-point/iteration.html)
   
+
+## 3.__Newton-Raphson method__ 
+  the basic formula for this method is 
+  Xn+1 = Xn - f(Xn)/f'(Xn)
+  where f'(X) is the derivative of f 
+  
+  for more information   [click here](https://brilliant.org/wiki/newton-raphson-method/#:~:text=The%20Newton%2DRaphson%20method%20(also,straight%20line%20tangent%20to%20it.)
   
