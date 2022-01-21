@@ -13,3 +13,28 @@ function regula(f, x0, x1, iteration)
     end
     return x
 end
+
+#check the method by some example function 
+function a(x)
+    val = x^3 - 2*x - 5
+    return val
+end
+
+function b(x)
+    val = x^3 + x^2 - 1
+    return val
+end
+
+
+function c(x)
+    return x^2 + 4*sin(x)
+end
+
+function d(x)
+    return x*exp(x) - cos(x)
+end
+
+
+function e(x)
+    return 2*(x^3) - 3*x - 6
+end
