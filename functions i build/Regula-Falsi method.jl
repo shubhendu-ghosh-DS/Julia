@@ -38,3 +38,10 @@ end
 function e(x)
     return 2*(x^3) - 3*x - 6
 end
+
+
+#call the functions 
+regula(a, 2, 3, 30)
+regula(c, -2, 1, 30)
+regula(d, 1,2,30)
+regula(e, 0, 1, 30)
