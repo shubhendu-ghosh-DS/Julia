@@ -42,6 +42,7 @@
   
 ## 4. __Regula-Falsi method__ (_method of false position_)
    To learn more about regula falsi method or method of false position plese refer to these two pages 
+   
    [this](https://www.goseeko.com/blog/what-is-regula-falsi-method/) and [This](https://en.wikipedia.org/wiki/Regula_falsi)
  
  
