@@ -39,3 +39,9 @@
   
   for more information   [click here](https://brilliant.org/wiki/newton-raphson-method/#:~:text=The%20Newton%2DRaphson%20method%20(also,straight%20line%20tangent%20to%20it. )
   
+  
+## 4. __Regula-Falsi method__ (_method of false position_)
+   To learn more about regula falsi method or method of false position plese refer to these two pages 
+   [this](https://www.goseeko.com/blog/what-is-regula-falsi-method/) and [This](https://en.wikipedia.org/wiki/Regula_falsi)
+ 
+ 
