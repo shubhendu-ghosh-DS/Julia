@@ -48,3 +48,11 @@ function even_sum(f, a, h, limit)
 end
 
 
+function CompositeS(f, lower_limit, upper_limit, iteration)
+    a = lower_limit
+    b = upper_limit
+    n = iteration
+    h = (b - a)/n
+    I = (h/3)*((f(a) + f(b)) + 4*odd_sum(f, a, h, n) + 2*(even_sum(f,a, h, n) - f(b)))
+    return I
+end
