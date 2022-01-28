@@ -6,3 +6,45 @@ function simpson(f, lower_limit, upper_limit)
     I = (h/3)*(f(a) + 4*f(a + h) + f(b))
     return I
 end
+
+
+function get_odd(p)
+    D =[]
+    for i in 1:p
+        if i%2 == 1
+            append!(D, i)
+        end
+    end
+    return D
+end
+
+
+function get_even(p)
+    D =[]
+    for i in 1:p
+        if i%2 == 0
+            append!(D, i)
+        end
+    end
+    return D
+end
+
+
+function odd_sum(f, a, h, limit)
+    sum = 0
+    for i in get_odd(limit)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
+function even_sum(f, a, h, limit)
+    sum = 0
+    for i in get_even(limit)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
