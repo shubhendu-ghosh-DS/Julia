@@ -56,3 +56,14 @@ function CompositeS(f, lower_limit, upper_limit, iteration)
     I = (h/3)*((f(a) + f(b)) + 4*odd_sum(f, a, h, n) + 2*(even_sum(f,a, h, n) - f(b)))
     return I
 end
+
+
+
+
+function one(x)
+    return 1/(1 + x^2)
+end
+
+
+
+CompositeS(one, 0, 1, 6)
