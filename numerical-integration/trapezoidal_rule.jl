@@ -24,3 +24,19 @@ end
 function one(x)
     return 1/(1 + x^2)
 end
+
+
+
+function two(x)
+    return x + 1/x
+end
+
+
+
+trapezoidal(one, 0, 1)
+CompositeT(one, 0, 1, 6)
+
+
+
+CompositeT(two, 1.2, 1.6, 100)
+trapezoidal(two, 1.2, 1.6)
