@@ -1,4 +1,4 @@
-
+#This is the function that works on the Trapezoidal rule formula 
 function trapezoidal(f, lower_limit, upper_limit)
     a, b = lower_limit, upper_limit
     h = b - a
@@ -7,7 +7,7 @@ function trapezoidal(f, lower_limit, upper_limit)
 end
 
 
-
+# This is the function that works on Composite Trapezoidal rule
 function CompositeT(f, lower_limit, upper_limit, sub_intervals)
     a, b, n = lower_limit, upper_limit, sub_intervals
     h = (b - a)/n
@@ -20,7 +20,7 @@ function CompositeT(f, lower_limit, upper_limit, sub_intervals)
 end
 
 
-
+#these are some function whose integration we want to calculate in certain interval
 function one(x)
     return 1/(1 + x^2)
 end
@@ -32,7 +32,7 @@ function two(x)
 end
 
 
-
+#Calling the function for both the rule
 trapezoidal(one, 0, 1)
 CompositeT(one, 0, 1, 6)
 
