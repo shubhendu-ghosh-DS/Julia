@@ -1,3 +1,4 @@
+#This is the function for simpsons 3/8 th rule 
 function SimpsonsTE(f, lower_limit, upper_limit)
     a = lower_limit
     b = upper_limit
@@ -6,7 +7,7 @@ function SimpsonsTE(f, lower_limit, upper_limit)
     return I
 end
 
-
+#this function returns all the numbers that are divisible by 3 within a range except that number 
 function threes(limit)
     D =[]
     if limit%3 != 0
@@ -22,7 +23,7 @@ function threes(limit)
 end
 
 
-
+#this function sums all the values of f in the given range
 function sumthree(f, a, b, n)
     h = (b - a)/n
     sum = 0
