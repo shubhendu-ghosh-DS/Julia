@@ -84,6 +84,18 @@ function three(x)
     return sqrt(cos(x))
 end
 
+ 
+
         
+        
+        
+        
+println(SimpsonsTE(one, 0, 1))
+println(CompositeSTE(one, 0, 1, 6))
+
+                
+        
+SimpsonsTE(two, 0, pi/2)
+SimpsonsTE(three, 0, pi/2)
     
     
