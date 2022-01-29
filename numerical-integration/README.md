@@ -3,5 +3,5 @@
 
 
 ## In this section  we derive and analyze numerical methods to evaluate definite integrals of the form 
-![integration](https://![download (12)](https://user-images.githubusercontent.com/77840111/151663045-3bdfc0f1-ecd1-4612-89e3-333bef0a5a78.png)
-)
+![download (12)](https://user-images.githubusercontent.com/77840111/151663066-f5cd1010-08be-4f3a-886f-2eb0ee2bef92.png)
+
