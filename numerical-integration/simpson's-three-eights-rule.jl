@@ -43,3 +43,25 @@ function notthrees(n)
     end
     return D
 end
+
+
+
+
+function sumnt(f, a, b, n)
+    sum = 0
+    h = (b - a)/n
+    for i in notthrees(n)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
+
+
+function CompositeSTE(f, a, b, n)
+    h = (b - a)/n
+    I = (3*h/8)*(f(a) + f(b) + 3*(sumnt(f, a, b, n)) + 2*(sumthree(f, a, b, n)))
+    #println("$(f(a) + f(b)) \n $(sumnt(f, a, b, n)) \n $(sumthree(f, a, b, n))")
+    return I
+end
