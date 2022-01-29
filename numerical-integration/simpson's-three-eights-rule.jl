@@ -65,3 +65,25 @@ function CompositeSTE(f, a, b, n)
     #println("$(f(a) + f(b)) \n $(sumnt(f, a, b, n)) \n $(sumthree(f, a, b, n))")
     return I
 end
+
+
+
+function one(x)
+    return 1/(1 + x^2)
+end
+
+
+function two(x)
+    return exp(sin(x))
+end
+
+    
+    
+    
+function three(x)
+    return sqrt(cos(x))
+end
+
+        
+    
+    
