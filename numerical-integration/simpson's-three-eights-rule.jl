@@ -34,7 +34,7 @@ function sumthree(f, a, b, n)
 end
 
 
-
+#this function returns all the numbers within a range except those that are divisible by 3
 function notthrees(n)
     D =[]
     for i in 1:n - 1
@@ -47,7 +47,7 @@ end
 
 
 
-
+#This function sums the value of the function in a given range
 function sumnt(f, a, b, n)
     sum = 0
     h = (b - a)/n
@@ -59,7 +59,7 @@ end
 
 
 
-
+#this is the formula for composite simpson's three-eights rule
 function CompositeSTE(f, a, b, n)
     h = (b - a)/n
     I = (3*h/8)*(f(a) + f(b) + 3*(sumnt(f, a, b, n)) + 2*(sumthree(f, a, b, n)))
@@ -67,6 +67,8 @@ function CompositeSTE(f, a, b, n)
     return I
 end
 
+
+#defining some functions
 
 
 function one(x)
@@ -89,7 +91,7 @@ end
 
         
         
-        
+#Calling them        
         
 println(SimpsonsTE(one, 0, 1))
 println(CompositeSTE(one, 0, 1, 6))
