@@ -104,4 +104,27 @@ end
 
 
 
+function sumthree(f, a, b, n)
+    h = (b - a)/n
+    sum = 0
+    for i in  threes(n)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
+
+function sumsix(f, a, b, n)
+    h = (b - a)/n
+    sum = 0
+    for i in sixes(n)
+        sum += f(a + i*h)
+        
+    end
+    return sum
+end
+
+
+
 
