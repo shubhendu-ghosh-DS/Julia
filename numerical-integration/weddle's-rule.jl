@@ -1,3 +1,6 @@
+#this is the code for calculating integration of a function numerically by weddle's rule and composite weddle's rule
+
+
 
 #This is the function for weddle rule taking n=6, a = X0, b = x6 in the general formula 
 function weddle(f, a, b)
