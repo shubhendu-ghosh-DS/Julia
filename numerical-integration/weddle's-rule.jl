@@ -87,7 +87,7 @@ function oddsleft(n)
 end
 
 
-
+#Now the following four function sums the values of our integrable function in the form f(a + i*h) for different value points
 function sumtwo(f,a, b, n)
     h = (b - a)/n
     sum = 0
@@ -133,7 +133,7 @@ end
 
 
 
-
+#Alright! finally our function for calculate the integration value using the composite weddle's rule
 function CompositeW(f, a, b, n)
     h = (b -a)/n
     I =(3*h/10)*((f(a) + f(b)) + sumtwo(f, a, b, n) + 5*sumone(f, a, b, n) + 6*sumthree(f, a, b, n) + 2*sumsix(f, a, b, n))
@@ -143,7 +143,7 @@ end
 
 
 
-
+#now define some functions for integration 
 function one(x)
     return 1/(1 + x^2)
 end
