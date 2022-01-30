@@ -79,3 +79,29 @@ function oddsleft(n)
         println("this number is not divisible by 6")
     end
 end
+
+
+
+function sumtwo(f,a, b, n)
+    h = (b - a)/n
+    sum = 0
+    for i in twos(n)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
+
+function sumone(f,a, b, n)
+    h = (b - a)/n
+    sum = 0
+    for i in oddsleft(n)
+        sum += f(a + i*h)
+    end
+    return sum
+end
+
+
+
+
