@@ -1,3 +1,5 @@
+
+#This is the function for weddle rule taking n=6, a = X0, b = x6 in the general formula 
 function weddle(f, a, b)
     h = (b - a)/6
     I = (3*h/10)*(f(a) + 5*f(a + h) + f(a + 2*h) + 6*f(a + 3*h) + f(a + 4*h) + 5*f(a + 5*h) + f(b))
@@ -5,7 +7,9 @@ function weddle(f, a, b)
 end
 
 
-
+#this is a special function built for this method. It returns a 1D array of all the numbers that are divisible by 6
+#except the last one. 
+#Note: this function takes values that are only divisible by 6
 function sixes(n)
     D = []
     if n%6 != 0
