@@ -25,7 +25,8 @@ function sixes(n)
 end
 
 
-
+#this function is quite similar to that of the previous one. it returns values that are divisible by 3 excluding those that are divisible by 6
+#this one also takes values as arguments that are only divisible by 6
 function threes(n)
     if n%6 == 0
         D =[]
@@ -46,7 +47,7 @@ function threes(n)
 end
 
 
-
+#this function returns all the even values in a range except those that are divisible by 6
 function twos(n)
     if n%6 ==0
         D = []
@@ -68,7 +69,7 @@ end
 
 
 
-
+#this function returns all the values left in the range that not covered by any of the previous functions
 function oddsleft(n)
     if n%6 == 0
         D =[]
