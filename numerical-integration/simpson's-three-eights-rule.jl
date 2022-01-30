@@ -1,3 +1,6 @@
+#This is the code for calculating definite integral of a function numerically by simpson's three-eights rule
+
+
 #This is the function for simpsons 3/8 th rule 
 function SimpsonsTE(f, lower_limit, upper_limit)
     a = lower_limit
