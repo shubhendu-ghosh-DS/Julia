@@ -33,6 +33,7 @@ function threes(n)
                     append!(D, i)
                 end
             end
+            
         end
         return D
     else
@@ -126,5 +127,31 @@ function sumsix(f, a, b, n)
 end
 
 
+
+
+function CompositeW(f, a, b, n)
+    h = (b -a)/n
+    I =(3*h/10)*((f(a) + f(b)) + sumtwo(f, a, b, n) + 5*sumone(f, a, b, n) + 6*sumthree(f, a, b, n) + 2*sumsix(f, a, b, n))
+    return I
+end
+
+
+
+
+
+function one(x)
+    return 1/(1 + x^2)
+end
+
+
+function two(x)
+    return (sqrt(x)*exp(-x))
+end
+
+
+function p(x)
+    val = log(x)
+    return val
+end
 
 
