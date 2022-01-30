@@ -155,3 +155,10 @@ function p(x)
 end
 
 
+
+weddle(one, 0, 1)
+CompositeW(one, 0, 1, 30)
+
+CompositeW(two, 0.5, 0.7, 24)
+
+CompositeW(p, 4.0, 5.2, 12)
