@@ -1,4 +1,4 @@
-#this is the code for calculating integration of a function numerically by weddle's rule and composite weddle's rule
+#this is the code for calculating definite integral of a function numerically by weddle's rule and composite weddle's rule
 
 
 
