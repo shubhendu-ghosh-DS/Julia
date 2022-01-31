@@ -20,4 +20,11 @@ otherwise, the formula is referred as open type.
 
   
   # Two important concepts
-  **(a) Degree of precision **
+  ## __(a) Degree of precision__
+   a mechanical quadrature formula is said to have a _degree of precision_ k, (k being a positive integer), if it is exact, i.e., the error is zero for an arbitrary polynomial of degree  k <= n, but there exists a polynomial of degree k+1 for which it is not exact, i.e, the error is not zero.   
+   for more information refer to these links  
+   [this](https://ahmedbadary.github.io/work_files/school/128a/4_3) and [this](https://www.unioviedo.es/compnum/labs/new/08_integration.html)
+  
+  
+  
+  ## __(b) Composite Rule__
