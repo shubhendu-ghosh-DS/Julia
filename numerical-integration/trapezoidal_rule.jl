@@ -1,3 +1,6 @@
+#this is the code for calculating definite integral of a function numerically by Trapezoidal rule and composite composite Trapezoidal rule
+
+
 #This is the function that works on the Trapezoidal rule formula 
 function trapezoidal(f, lower_limit, upper_limit)
     a, b = lower_limit, upper_limit
