@@ -15,3 +15,9 @@ This is taken to be an approximation of the integral mentioned above.
 Geometrically this is equivalent to replacing the area enclosed by the curve y = f(x) between the ordinates x = a and x = b by that of p(x).
 The approximation of _I_ is usually known as _numerical integration_ or _quadrature_. 
 
+A quadrature formula is said to be of _closed type_ if the  lower limit a and the upper limit b of the integration is taken as interpolating points;
+otherwise, the formula is referred as open type.  
+
+  
+  # Two important concepts
+  **(a) Degree of precision **
