@@ -1,4 +1,6 @@
+#this is the code for calculating definite integral of a function numerically by simpson's one-third rule and composite simpson's one-third rule
 
+#this is the function for calculating numerical integration using just simpson's one-third rule
 function simpson(f, lower_limit, upper_limit)
     a = lower_limit
     b = upper_limit
@@ -7,7 +9,7 @@ function simpson(f, lower_limit, upper_limit)
     return I
 end
 
-
+#this function returns all the odd values within a specified range
 function get_odd(p)
     D =[]
     for i in 1:p
