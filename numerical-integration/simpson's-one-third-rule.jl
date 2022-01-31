@@ -20,7 +20,7 @@ function get_odd(p)
     return D
 end
 
-
+#this one returns the even values
 function get_even(p)
     D =[]
     for i in 1:p
@@ -31,7 +31,7 @@ function get_even(p)
     return D
 end
 
-
+#this function sums the function values in the odd data points
 function odd_sum(f, a, h, limit)
     sum = 0
     for i in get_odd(limit)
@@ -40,7 +40,7 @@ function odd_sum(f, a, h, limit)
     return sum
 end
 
-
+#this function sums the function values in the even data points
 function even_sum(f, a, h, limit)
     sum = 0
     for i in get_even(limit)
