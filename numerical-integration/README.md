@@ -10,9 +10,8 @@ for any interval [a, b]. By replacing the function f(x) with a suitable polynomi
 
 ![integration px](https://user-images.githubusercontent.com/77840111/151791506-cc8796b6-8a2d-45c2-8067-e19a2613c3e9.png)
 
-This is taken to be an approximation of the integral I
+This is taken to be an approximation of the integral mentioned above.  
 
 Geometrically this is equivalent to replacing the area enclosed by the curve y = f(x) between the ordinates x = a and x = b by that of p(x).
-
 The approximation of _I_ is usually known as _numerical integration_ or _quadrature_. 
 
