@@ -29,7 +29,7 @@ otherwise, the formula is referred as open type.
   
   ## __(b) Composite Rule__
   
-  Sometimes it is more convenient to break interval
+  Sometimes it is more convenient to break interval [a, b], ( a = a<sub>0</sub> < a<sub>1</sub> < a<sub>2</sub> < ... < a<sub>m-1</sub> < a<sub>m</sub> = b )
   
   
   
