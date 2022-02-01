@@ -28,3 +28,16 @@ otherwise, the formula is referred as open type.
   
   
   ## __(b) Composite Rule__
+  
+  Sometimes it is more convenient to break interval
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [this link](https://www.theochem.ru.nl/~pwormer/Knowino/knowino.org/wiki/Legendre-Gauss_Quadrature_formula.html#:~:text=The%20Legendre%2DGauss%20quadrature%20formula%20is%20a%20special%20case%20of,of%20the%20interval%20of%20integration. ) and this [wiki guide](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_quadrature)
