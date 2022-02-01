@@ -38,4 +38,6 @@ otherwise, the formula is referred as open type.
  
  Now we will discuss about some methods for numerical integration. 
 # __1. Trapezoidal rule__
- for the simplest approach n = 1  in Gauss-legendre formula, when x<sub>0</sub> = a, x<sub>1</sub> = x<sub>0</sub> + h = b 
+for the simplest approach n = 1  in Gauss-legendre formula, when x<sub>0</sub> = a, x<sub>1</sub> = x<sub>0</sub> + h = b 
+we get _I_ = ![gif 1](https://user-images.githubusercontent.com/77840111/151986113-ad312c63-3461-4a4f-b932-bc5f4509fc19.gif)
+
