@@ -37,5 +37,5 @@ otherwise, the formula is referred as open type.
  
  
  Now we will discuss about some methods for numerical integration. 
-
- $\int_a^b f(x) dx$ 
+# __1. Trapezoidal rule__
+ for the simplest approach n = 1  in Gauss-legendre formula, when x<sub>0</sub> = a, x<sub>1</sub> = x<sub>0</sub> + h = b 
