@@ -29,7 +29,13 @@ otherwise, the formula is referred as open type.
   
   ## __(b) Composite Rule__
   
-  Sometimes it is more convenient to break interval [a, b], ( a = a<sub>0</sub> < a<sub>1</sub> < a<sub>2</sub> < ... < a<sub>m-1</sub> < a<sub>m</sub> = b ) of integretaion into number of sub-intervals, say m( < n), [ a<sub>j-1</sub>, a<sub>j</sub>], (j = 1,2,...,m ). Then we apply a quadrature formula separately to each of these sub intervals and then add the results. the formula thus obtained is called _composite rule_ corresponding to that quadrature formula.
+  Sometimes it is more convenient to break interval [a, b], ( a = a<sub>0</sub> < a<sub>1</sub> < a<sub>2</sub> < ... < a<sub>m-1</sub> < a<sub>m</sub> = b ) of integretaion into number of sub-intervals, say m( < n), [ a<sub>j-1</sub>, a<sub>j</sub>], (j = 1,2,...,m ). Then we apply a quadrature formula separately to each of these sub intervals and then add the results. the formula thus obtained is called _composite rule_ corresponding to that quadrature formula.  
     
  for quadrature formula please refer to some numerical method book.  
  [this link](https://www.theochem.ru.nl/~pwormer/Knowino/knowino.org/wiki/Legendre-Gauss_Quadrature_formula.html#:~:text=The%20Legendre%2DGauss%20quadrature%20formula%20is%20a%20special%20case%20of,of%20the%20interval%20of%20integration. ) and this [wiki guide](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_quadrature) might help you.
+ 
+ 
+ 
+ Now we will discuss about some methods for numerical integration. 
+
+ $\int_a^b f(x) dx$ 
