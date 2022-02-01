@@ -29,7 +29,7 @@ otherwise, the formula is referred as open type.
   
   ## __(b) Composite Rule__
   
-  Sometimes it is more convenient to break interval [a, b], ( a = a<sub>0</sub> < a<sub>1</sub> < a<sub>2</sub> < ... < a<sub>m-1</sub> < a<sub>m</sub> = b )
+  Sometimes it is more convenient to break interval [a, b], ( a = a<sub>0</sub> < a<sub>1</sub> < a<sub>2</sub> < ... < a<sub>m-1</sub> < a<sub>m</sub> = b ) of integretaion into number of sub-intervals, say m( < n), [ a<sub>j-1</sub>, a<sub>j</sub>], (j = 1,2,...,m ). Then we apply a quadrature formula separately to each of these sub intervals and then add the results. the formula thus obtained is called _composite rule_ corresponding to that quadrature formula.
   
   
   
