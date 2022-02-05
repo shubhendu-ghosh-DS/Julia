@@ -6,9 +6,10 @@
  
 ![download (12)](https://user-images.githubusercontent.com/77840111/151663066-f5cd1010-08be-4f3a-886f-2eb0ee2bef92.png)
 
-for any interval [a, b]. By replacing the function f(x) with a suitable polynomial p(x) such that 
+for any interval [a, b]. By replacing the function f(x) with a suitable polynomial p(x) such that   
 
-![integration px](https://user-images.githubusercontent.com/77840111/151791506-cc8796b6-8a2d-45c2-8067-e19a2613c3e9.png)
+![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/77840111/152632546-3270d8a3-b751-49fd-a1eb-fbbe67e36f1e.png)
+
 
 This is taken to be an approximation of the integral mentioned above.  
 
