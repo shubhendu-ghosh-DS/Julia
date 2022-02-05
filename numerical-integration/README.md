@@ -54,7 +54,12 @@ This is called _two-point Trapezoidal rule for numerical integration_. The error
 Let us divide the range[a,b] of integration into n equal sub-intervals of spacing h by the points a = x<sub>0</sub>, x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ....., x<sub>n-1</sub>, x<sub>n</sub> = b  
 where x<sub>i</sub> = x<sub>0</sub> + ih, (i = 0,1,2,3,....,n).   
 Then applying Trapezoidal rule in each of the sub-intervals [x<sub>i</sub>, x<sub>i+1</sub>], (i = 0,1,2,3,....,n), we get by noting that y<sub>i</sub> = f(x<sub>i</sub>), (i v= 0,1,2,...,n)  
-![lagrida_latex_editor](https://user-images.githubusercontent.com/77840111/152631882-21c085e8-c4f0-4f5f-9997-85eb2cb3168d.png)
+![lagrida_latex_editor](https://user-images.githubusercontent.com/77840111/152631882-21c085e8-c4f0-4f5f-9997-85eb2cb3168d.png)  
+so that   
+![lagrida_latex_editor](https://user-images.githubusercontent.com/77840111/152632451-8516ed68-f35e-461b-b819-e811d8bd5379.png)  
+i.e. ![lagrida_latex_editor (1)](https://user-images.githubusercontent.com/77840111/152632509-f57484cb-6f7b-44be-a803-abe95717d039.png)
+
+
 
 
 
