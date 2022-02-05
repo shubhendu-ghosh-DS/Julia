@@ -42,5 +42,8 @@ for the simplest approach n = 1  in Gauss-legendre formula, when x<sub>0</sub> =
 we get _I_ = ![gif 1](https://user-images.githubusercontent.com/77840111/151986113-ad312c63-3461-4a4f-b932-bc5f4509fc19.gif) 
 approximately equals to   
 h[ y<sub>0</sub> + (y<sub>1</sub> - y<sub>0</sub>)/2]  
-i.e. _I_<sub>T</sub> = (h(f(x<sub>0</sub>) + f(x<sub>1</sub>)))/2
+i.e. _I_<sub>T</sub> = (h(f(x<sub>0</sub>) + f(x<sub>1</sub>)))/2  
+
+This is called _two-point Trapezoidal rule for numerical integration_. The error in the formula (5.9) is 
+
 
