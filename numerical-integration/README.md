@@ -37,14 +37,24 @@ otherwise, the formula is referred as open type.
  
  
  Now we will discuss about some methods for numerical integration. 
-# __1. Trapezoidal rule__
+# __1. Trapezoidal Rule__
 for the simplest approach n = 1  in Gauss-legendre formula, when x<sub>0</sub> = a, x<sub>1</sub> = x<sub>0</sub> + h = b 
-we get _I_ = ![gif 1](https://user-images.githubusercontent.com/77840111/151986113-ad312c63-3461-4a4f-b932-bc5f4509fc19.gif) 
-approximately equals to   
-h[ y<sub>0</sub> + (y<sub>1</sub> - y<sub>0</sub>)/2]  
-i.e. _I_<sub>T</sub> = (h(f(x<sub>0</sub>) + f(x<sub>1</sub>)))/2  
+we get 
+![lagrida_latex_editor (4)](https://user-images.githubusercontent.com/77840111/152632279-b18a8f23-0432-456c-becb-5d2797e6a2ef.png)
+
+i.e. ![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152632104-ce69cb44-b41e-4e0b-901c-a834128b43a1.png)
 
 This is called _two-point Trapezoidal rule for numerical integration_. The error in the formula (5.9) is   
-e<sub>T</sub> = _I_ - _I<sub>T</sub>_ = _I_ - (h(f(x<sub>0</sub>) + f(x<sub>0</sub> + h)))/2
+![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/77840111/152632010-948fee76-95d8-4798-b60d-604e6f77ad56.png)
+
+
+# 1(A). __Composite Trapezoidal Rule__
+
+
+Let us divide the range[a,b] of integration into n equal sub-intervals of spacing h by the points a = x<sub>0</sub>, x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ....., x<sub>n-1</sub>, x<sub>n</sub> = b  
+where x<sub>i</sub> = x<sub>0</sub> + ih, (i = 0,1,2,3,....,n).   
+Then applying Trapezoidal rule in each of the sub-intervals [x<sub>i</sub>, x<sub>i+1</sub>], (i = 0,1,2,3,....,n), we get by noting that y<sub>i</sub> = f(x<sub>i</sub>), (i v= 0,1,2,...,n)  
+![lagrida_latex_editor](https://user-images.githubusercontent.com/77840111/152631882-21c085e8-c4f0-4f5f-9997-85eb2cb3168d.png)
+
 
 
