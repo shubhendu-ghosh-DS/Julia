@@ -44,6 +44,7 @@ approximately equals to
 h[ y<sub>0</sub> + (y<sub>1</sub> - y<sub>0</sub>)/2]  
 i.e. _I_<sub>T</sub> = (h(f(x<sub>0</sub>) + f(x<sub>1</sub>)))/2  
 
-This is called _two-point Trapezoidal rule for numerical integration_. The error in the formula (5.9) is 
+This is called _two-point Trapezoidal rule for numerical integration_. The error in the formula (5.9) is   
+e<sub>T</sub> = _I_ - _I<sub>T</sub>_ = _I_ - (h(f(x<sub>0</sub>) + f(x<sub>0</sub> + h)))/2
 
 
