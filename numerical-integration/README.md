@@ -69,16 +69,5 @@ Let us take n = 2 , i.e. the concidered nodes are x<sub>0</sub>  = a, x<sub>1</s
 ![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/77840111/152683207-44c83e0e-1084-4360-957c-a263ef0e8ec7.png)  
 ![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152683213-909585f9-1433-4997-aaee-a879c65a7a98.png)  
 ![lagrida_latex_editor (4)](https://user-images.githubusercontent.com/77840111/152683261-376c8233-5d9d-4489-8f21-36be96957f95.png)  
-![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/77840111/152683277-4fd620d7-d4c6-4507-9585-102ee65f8d13.png)
-
-
-
-
-
-
-
-
-
-
-
-
+![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/77840111/152683277-4fd620d7-d4c6-4507-9585-102ee65f8d13.png)  
+This is called _Simpson's one-third rule for numerical integration_ and since n = 2, so it is a _three pointquadrature formula_
