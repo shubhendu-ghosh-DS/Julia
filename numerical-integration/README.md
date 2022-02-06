@@ -63,6 +63,14 @@ This is known as _Composite Trapezoidal rule for numerical integration._
 As in Trapezoidal Rule , the errors for each of the sub-intervals [x<sub>i</sub>, x<sub>i+1</sub>], (i = 0,1,2,...,n) are given respectively by   
 ![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152632774-edc2f5b1-be67-4849-ac55-cfde16329494.png)  
 i.e. ![lagrida_latex_editor (4)](https://user-images.githubusercontent.com/77840111/152632849-6742a233-bb58-48cb-8a37-d6cd6971e024.png)
+# __2. Simpson's one third rule__
+Let us take n = 2 , i.e. the concidered nodes are x<sub>0</sub>  = a, x<sub>1</sub> = x<sub>0</sub> + h, x<sub>2</sub> = x<sub>0</sub> + 2h = b and neglect the third and higher order differences in Gauss-Legendre formula to obtain 
+![lagrida_latex_editor (1)](https://user-images.githubusercontent.com/77840111/152683191-e0d3f164-e034-4438-bc54-f6698b493f73.png)  
+![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/77840111/152683207-44c83e0e-1084-4360-957c-a263ef0e8ec7.png)  
+![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152683213-909585f9-1433-4997-aaee-a879c65a7a98.png)
+
+
+
 
 
 
