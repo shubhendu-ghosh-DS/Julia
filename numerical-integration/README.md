@@ -75,7 +75,12 @@ This is called _Simpson's one-third rule for numerical integration_ and since n 
 # __3. Simpson's three-eighths rule__
 putting n = 3 in Gauss_Legendre quadrature formula, we get  
 ![lagrida_latex_editor](https://user-images.githubusercontent.com/77840111/152972785-b518b392-f016-4d7a-bfc1-1c5665481777.png)  
-![lagrida_latex_editor (1)](https://user-images.githubusercontent.com/77840111/152973202-4094cad1-de74-49c7-8d68-4ec4ad48739a.png)
+![lagrida_latex_editor (1)](https://user-images.githubusercontent.com/77840111/152973202-4094cad1-de74-49c7-8d68-4ec4ad48739a.png)  
+![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/77840111/152974183-26897498-6229-401d-b798-7df4ec9e8453.png)  
+So That  
+![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152974276-be65ba68-5b7a-49eb-8ea4-e5b99e2c0048.png)
+
+
 
 
 
