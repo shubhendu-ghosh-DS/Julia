@@ -80,7 +80,7 @@ putting n = 3 in Gauss_Legendre quadrature formula, we get
 So That  
 ![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152974276-be65ba68-5b7a-49eb-8ea4-e5b99e2c0048.png)
   
-  # __ 3(A). Composite Simpson's three-eight rule__
+  # __3(A). Composite Simpson's three-eight rule__
 
 
 
