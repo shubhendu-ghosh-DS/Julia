@@ -80,7 +80,8 @@ putting n = 3 in Gauss_Legendre quadrature formula, we get
 So That  
 ![lagrida_latex_editor (3)](https://user-images.githubusercontent.com/77840111/152974276-be65ba68-5b7a-49eb-8ea4-e5b99e2c0048.png)
   
-  # __3(A). Composite Simpson's three-eight rule__
+  # __3(A). Composite Simpson's three-eight rule__  
+  suppose the interval [a, b] be divided into 3m (= n) equal sub-intervals by the points a = x<sub>0</sub>, x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>3m-1</sub>, x<sub>3m</sub> = b
 
 
 
